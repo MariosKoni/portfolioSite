@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url("../Photos/background.jpg");
+  background-size: 80%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.menuBox {
+  padding-bottom: 20px;
+}
+
+.menuBox > ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+#elements li {
+  display: inline;
+}
+
+#elements a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#elements a:hover, a:active {
+  background-color: orange;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.greeting > p {
+  text-align: center;
+  font-size: 44px;
+}
+
+footer p {
+  bottom: 0px;
+  position: relative;
+  left: 35%;
+  right: 35%;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: orange;
+}
+
+/* photos.html SPECIFIC */
+.photosContainer {
+  border: 1px solid white;
+  border-radius: 25px;
+}
+
+.photosContainer > img {
+  height: 300px;
+  width: 350px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.photosContainer > img:hover {
+  cursor: pointer;
+  height: 400px;
+  width: 450px;
+  transition: all 0.3s ease;
+}
